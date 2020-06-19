@@ -19,7 +19,7 @@ public class DictionaryListing {
         int size = fruits.length;
         for(int a=0;a <size-1;a++)
         {
-            for(int b = a + 1; b < fruits.length; b++)
+            for(int b = a ; b < fruits.length; b++)
             {
                 if(fruits[a].compareTo(fruits[b]) > 0)
                 {
@@ -33,7 +33,7 @@ public class DictionaryListing {
 
         for(int a=0;a <size-1;a++)
         {
-            for(int b = a + 1; b < fruits.length; b++)
+            for(int b = a ; b < fruits.length; b++)
             {
                 if(fruits[a].compareTo(fruits[b]) < 0)
                 {
